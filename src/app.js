@@ -18,6 +18,7 @@ app.set("views","views")
 hbs.registerPartials("views/partials")
 
 //db connection
+//abc
 mongoose.connect("mongodb://localhost:27017/project1").then(()=>{
     console.log("connection successful");
 
